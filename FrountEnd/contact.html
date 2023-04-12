@@ -15,25 +15,28 @@
   <div id="Contact_Form_Container">
     <br>
        <div class="Contact_form_Logo_Container">
-        <img src="./Images/Logo.png" alt="" srcset="" class="Conatct_form_Logo">
+        <a href="./index.html">
+          <img src="./Images/Logo.png" alt="" srcset="" class="Conatct_form_Logo">
+        </a>
        </div>
        <br>
        <div class="Conatact_form_Div">
             <label class="labels" for="">Name</label>
             <br>
-            <input class="inputs" type="text" placeholder="Enter Your Name">
+            <input id="name" class="inputs" type="text" placeholder="Enter Your Name">
             <br>
             <label class="labels" for="">Email</label>
             <br>
-            <input class="inputs" type="text" placeholder="Enter Your Name">
+            <input id="email" class="inputs" type="text" placeholder="Enter Your Email">
             <br>
             <label class="labels" for="">Quary</label>
             <br>
-            <textarea name="" id="" cols="30" rows="10"></textarea>
+            <textarea  name="" id="quary" cols="30" rows="10"></textarea>
             <!-- <input type="text" id="textarea" placeholder="EnterYourQuary"> -->
             <br>
             <br>
-            <input type="SUBMIT" id="SubmitButton" placeholder="SUBMIT">
+            <!-- <button type="SUBMIT" id="SubmitButton" placeholder="SUBMIT" onclick="SaveQuary()"> -->
+              <button id="SubmitButton" onclick="SaveQuary()">SUBMIT</button>
        </div>
   </div>
   <footer id="Footer"></footer>
@@ -42,10 +45,11 @@
 </html>
 <script type="module">
   import Footer from "./scripts/Footer.js"
-  console.log(Footer())
+  // console.log(Footer())
 
   let FooterContainer = document.getElementById("Footer");
   window.onload = () => {
     document.getElementById("Footer").innerHTML = Footer();
   }
 </script>
+<script src="./scripts/contact.js"></script>

@@ -1,13 +1,10 @@
 let SideBar = document.getElementById("Sidebar")
-
-
 function ScreeChnage(){
-    console.log("Channa")
+    // console.log("Channa")
     if( window.screen.width > 767){
     SideBar.style.display = "none" 
     }
 }
-
 function CloneSidebar(){
     SideBar.style.display = "none"
 }
