@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./Styles/index.css">
+  <link rel="stylesheet" href="./Styles/cantact.css">
+</head>
+
+<body>
+
+  <div id="Contact_Form_Container">
+    <br>
+       <div class="Contact_form_Logo_Container">
+        <img src="./Images/Logo.png" alt="" srcset="" class="Conatct_form_Logo">
+       </div>
+       <br>
+       <div class="Conatact_form_Div">
+            <label class="labels" for="">Name</label>
+            <br>
+            <input class="inputs" type="text" placeholder="Enter Your Name">
+            <br>
+            <label class="labels" for="">Email</label>
+            <br>
+            <input class="inputs" type="text" placeholder="Enter Your Name">
+            <br>
+            <label class="labels" for="">Quary</label>
+            <br>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+            <!-- <input type="text" id="textarea" placeholder="EnterYourQuary"> -->
+            <br>
+            <br>
+            <input type="SUBMIT" id="SubmitButton" placeholder="SUBMIT">
+       </div>
+  </div>
+  <footer id="Footer"></footer>
+</body>
+
+</html>
+<script type="module">
+  import Footer from "./scripts/Footer.js"
+  console.log(Footer())
+
+  let FooterContainer = document.getElementById("Footer");
+  window.onload = () => {
+    document.getElementById("Footer").innerHTML = Footer();
+  }
+</script>

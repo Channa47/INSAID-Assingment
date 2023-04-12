@@ -1,0 +1,210 @@
+body{
+    padding-top: 44px;
+}
+#Contact_Form_Container{
+    width: 50%;
+    /* border: 2px solid red; */
+    height: 70vh;
+    margin: auto;
+    display: block;
+    justify-content: center;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+.Conatct_form_Logo{
+    width: 100px;
+    /* box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset; */
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+.Contact_form_Logo_Container{
+    width: 50%;
+    /* border: 2px solid red; */
+    margin: auto;
+    margin-top: 1%;
+}
+.Conatact_form_Div{
+    width: 50%;
+    margin: auto;
+    /* border: 2px solid red; */
+    text-align: left;
+    font-family: 'Courier New', Courier, monospace;
+    overflow: hidden;
+}
+.labels{
+    width: 90%;
+    text-align: left;
+    left: 0;
+    padding: 1%;
+}
+#SubmitButton{
+    width: 93%;
+    padding: 1%;
+    height: 5vh;
+    border: none;
+    /* box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em; */
+    /* box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px; */
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    font-family: 'Courier New', Courier, monospace;
+}
+#SubmitButton:hover{
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    background-color: aliceblue;
+    cursor: pointer;
+}
+.inputs{
+    width: 90%;
+    text-align: left;
+    justify-content: baseline;
+    height: 6vh;
+    margin: auto;
+    margin-top: 1%;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+    background-color: rgb(243, 240, 236);
+
+}
+.inputs:hover{
+   background-color: antiquewhite;
+}
+textarea{
+    border: 1px alice blue;
+    width: 90%;
+    text-align: left;
+    justify-content: baseline;
+    margin-top: 1%;
+    height: 15vh;
+    overflow: scroll;
+    resize: none;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+    background-color: rgb(243, 240, 236);
+    border: none;
+}
+textarea:hover{
+    background-color: antiquewhite;
+}
+/* Mobile */
+@media all and (min-width:340px) and (max-width:767px){
+    body{
+        padding-top: 5px;
+    }
+    #Contact_Form_Container{
+        width: 100%;
+        /* border: 2px solid red; */
+        height: 100%;
+        margin: auto;
+        display: block;
+        justify-content: center;
+        text-align: center;
+        box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    }
+    .Contact_form_Logo_Container{
+        width: 40%;
+        /* border: 2px solid red; */
+        margin: auto;
+        margin-top: 1%;
+        /* border: 2px solid red; */
+    }
+    .Conatct_form_Logo{
+        width: 50px;
+        /* box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset; */
+        border-radius: 50%;
+        box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    }
+    .inputs{
+        width: 95%;
+        text-align: left;
+        justify-content: baseline;
+        height: 5vh;
+        margin: auto;
+        margin-top: 1%;
+        border: none;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+        background-color: rgb(243, 240, 236);
+    }
+    textarea{
+        width: 95%;
+        text-align: left;
+        justify-content: baseline;
+        margin-top: 1%;
+        height: 10vh;
+        overflow: scroll;
+        resize: none;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+        background-color: rgb(243, 240, 236);
+        border: none;
+    }
+    #SubmitButton{
+        width: 93%;
+        padding: 0%;
+        height: 3vh;
+        border: none;
+        /* box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em; */
+        /* box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px; */
+        box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+        font-family: 'Courier New', Courier, monospace;
+        margin-bottom: 10px;
+    }
+}
+@media all and (min-width:768px) and (max-width:1023px) {
+    body{
+        padding-top: 3px;
+    }
+    #Contact_Form_Container{
+        width: 60%;
+        /* border: 2px solid red; */
+        height: 100%;
+        margin: auto;
+        display: block;
+        justify-content: center;
+        text-align: center;
+        box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    }
+    .Contact_form_Logo_Container{
+        width: 50%;
+        /* border: 2px solid red; */
+        margin: auto;
+        margin-top: 1%;
+        /* border: 2px solid red; */
+    }
+    .Conatct_form_Logo{
+        width: 80px;
+        /* box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset; */
+        border-radius: 50%;
+        box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    }
+    .inputs{
+        width: 95%;
+        text-align: left;
+        justify-content: baseline;
+        height: 4vh;
+        margin: auto;
+        margin-top: 1%;
+        border: none;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+        background-color: rgb(243, 240, 236);
+    }
+    textarea{
+        width: 95%;
+        text-align: left;
+        justify-content: baseline;
+        margin-top: 1%;
+        height: 6vh;
+        overflow: scroll;
+        resize: none;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+        background-color: rgb(243, 240, 236);
+        border: none;
+    }
+    #SubmitButton{
+        width: 93%;
+        padding: 0%;
+        height: 3vh;
+        border: none;
+        /* box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em; */
+        /* box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px; */
+        box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+        font-family: 'Courier New', Courier, monospace;
+        margin-bottom: 10px;
+    }
+}
