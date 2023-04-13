@@ -63,5 +63,23 @@ Here are some screenshots of the webCreators project:
 <img src="./ProjectScreenShots/mobileDashboard.jpg" width="25%"/>
 </div>
 
+## --
+# Technologies Used
+## The following technologies were used in the development of the project:
+
+Front-end: HTML, CSS, JavaScript
+Back-end: Express.js, Mongoose, MongoDB
+
+# Challenges Faced
+## The following challenges were encountered during the development of the project:
+
++ Responsive Design: Ensuring that the project is responsive on mobile screens was a challenge. It required careful consideration of the layout, fonts, images, and other elements to ensure that the project is visually appealing and functional on small screens.
+
 # Conclusion
 The webCreators project was completed within 2 days, and an additional feature of a dashboard accessible only to the admin was implemented. The project followed a planned approach, including the development of a homepage, contact page, and dashboard with authentication and query handling functionality. Extensive testing was conducted, and screenshots were included to showcase the project visually.
+
+# Live
+https://webcreators1.netlify.app/
+
+# Code Base
+https://github.com/Channa47/INSAID-Assingment
