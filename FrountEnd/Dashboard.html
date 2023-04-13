@@ -1,12 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>DashBoard</title>
+    <link rel="icon" type="image/x-icon" href="./Images/Logo.png">
+    <link rel="stylesheet" href="./Styles/dashboard.css">
+    <link rel="stylesheet" href="./Styles/index.css">
 </head>
 <body>
-    
+    <div id="HideDiv">
+        <div id="Auth_Modal">
+            <h1>Enter Admin Creds</h1>
+            <input type="text" placeholder="admin" id="username">
+            <br>
+            <input type="text" placeholder="password" id="password">
+            <br>
+            <button id="LoginButton" onclick="Login()">SUBMIT</button>
+            <br>
+            <div>
+                <p>Not Admin ? <span><a href="./index.html">HOME</a></span></p>
+            </div>
+        </div>
+    </div>
+    <div id="DashBoardLogo_Container">
+        <a href="./index.html"> <img src="./Images/Logo.png" alt="" srcset="" id="DashBoardLogo"></a>
+    </div>
+    <div>
+        <table id="Table"></table>
+    </div>
 </body>
 </html>
+<script src="./scripts/Dashboard.js"></script>

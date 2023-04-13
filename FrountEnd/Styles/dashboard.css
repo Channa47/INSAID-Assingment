@@ -1,0 +1,162 @@
+body{
+    margin: 0;
+    padding: 0;
+    padding-top: 0px;
+    background-color: rgb(239, 234, 227);
+}
+#Auth_Modal{
+    /* border: 2px solid red; */
+    width: 30%;
+    margin: auto;
+    margin-top: 10%;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#Auth_Modal>input{
+   width: 90%;
+   height: 5vh;
+   border: none;
+   box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+}
+#Auth_Modal>button{
+    width: 90%;
+    height: 5vh;
+}
+#Auth_Modal>div>p{
+    font-family: 'Courier New', Courier, monospace;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+#HideDiv{
+    width: 100%;
+    height: 100vh;
+    /* border: 2px solid red; */
+    position: fixed;
+    z-index: 1;
+    background-color: rgb(239, 234, 227);
+    top: 0;
+    left: 0;
+}
+#Table{
+    /* border : 2px solid red; */
+    width: 100%;
+    padding: 3%;
+    padding-top: 1%;
+}
+th{
+    border: 2px solid black;
+}
+tr{
+    /* box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px; */
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    /* border: 2px solid red; */
+}
+
+tr:hover{
+    /* box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; */
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+#Table_Body{
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    /* border: 2px solid red; */
+}
+/* table, th, td {
+    border: 1px solid black;
+} */
+.TextArea_Container{
+    /* background-color: aqua; */
+    justify-content: center;
+    text-align: left;
+    /* border: 2px solid red; */
+    width: 50%;
+    height: 100px;
+    overflow: scroll;
+}
+.Email_Conatiner{
+    justify-content: center;
+    text-align: center;
+    /* background-color: antiquewhite; */
+}
+.Buttons_Conatinaer{
+    justify-content: space-around;
+    text-align: center;
+    height: 100%;
+    /* background-color: antiquewhite; */
+}
+.Buttons_Conatinaer>button{
+    margin: 10%;
+}
+.textarea_ele{
+    width: 90%;
+    margin: auto;
+    resize: none;
+    overflow: scroll;
+    border: none;
+    /* height: 100%; */
+    height: 10vh;
+}
+#DashBoardLogo_Container{
+    width: 20%;
+    margin: auto;
+    margin-top: 0px;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+#DashBoardLogo{
+    width: 40%;
+    border-radius: 50%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+@media all and (min-width:340px) and (max-width:767px){
+    #Auth_Modal{
+        /* border: 2px solid red; */
+        width: 90%;
+        margin: auto;
+        margin-top: 10%;
+        display: grid;
+        justify-content: center;
+        text-align: center;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+    #Auth_Modal>input{
+        width: 90%;
+        height: 4vh;
+        border: none;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+     }
+     #Auth_Modal>button{
+        width: 90%;
+        height: 4vh;
+    }
+    td{
+        border-right: 2px solid black;
+    }
+}
+@media all and (min-width:768px) and (max-width:1023px){
+    #Auth_Modal{
+        /* border: 2px solid red; */
+        width: 90%;
+        margin: auto;
+        margin-top: 10%;
+        display: grid;
+        justify-content: center;
+        text-align: center;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+    #Auth_Modal>input{
+        width: 90%;
+        height: 3vh;
+        border: none;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+     }
+     #Auth_Modal>button{
+        width: 90%;
+        height: 3vh;
+    }
+}

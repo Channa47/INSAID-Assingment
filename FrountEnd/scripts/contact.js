@@ -22,7 +22,7 @@ function SaveQuary() {
   document.getElementById("SubmitButton").innerText = null;
   document.getElementById("SubmitButton").innerText = "Loading";
   let data = { name: name, email: email, quary: quary, responded: false }
-  fetch("http://localhost:8080/quary/", {
+  fetch("https://insaidapi.onrender.com/quary/", {
     method: "post",
     headers: {
         "Content-Type": "application/json",
