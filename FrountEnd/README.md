@@ -22,6 +22,8 @@ The dashboard was implemented with authentication to restrict access to only the
 + Extensive testing was conducted to ensure the proper functioning of all features, including user queries and admin responses.
 ## 4. Additional Feature:
 
++  username : "admin"
++  password  : "password"
 + An additional feature of a dashboard accessible only to the admin was added to the project, providing enhanced functionality and control.
 
 <!-- ![image](./ProjectScreenShots/mobileDashboard.jpg) -->
